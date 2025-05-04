@@ -1,0 +1,50 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "terminal"
+pagination.pagerSize = 5
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 0
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  enableGitInfo = true
+  showLastUpdated = false
+  readingTime = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "jackpurrin's weblog"
+
+    [languages.en.params]
+      subtitle = "a place for me to write about whatever is on my mind"
+      owner = "jackpurrin"
+      keywords = "thoughts"
+      copyright = ""
+      menuMore = "more links"
+      readMore = "read this article"
+      readOtherPosts = "there's more to read"
+      newerPosts = "more recent stuff"
+      olderPosts = "older stuff"
+      missingContentMessage = "where'd you go?"
+      missingBackButtonLabel = "let's go home. it's more comforting."
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "weblog"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "main"
+          name = "main website"
+          url = "https://jackpurrin.me/"
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "about"
+          url = "/about"
+
