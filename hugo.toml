@@ -17,7 +17,7 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "jackpurrin's weblog"
+    title = "jackpurrin's logs"
 
     [languages.en.params]
       subtitle = "a place for me to write about whatever is on my mind"
@@ -35,7 +35,7 @@ pagination.pagerSize = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "weblog"
+        logoText = "logs"
         logoHomeLink = "/"
 
       [languages.en.menu]
