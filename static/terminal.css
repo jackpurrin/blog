@@ -2,9 +2,9 @@
 @import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&display=swap');
 
 :root {
-  --background: #1a170f;
-  --foreground: #eceae5;
-  --accent: #ee82cf;
+  --background: #191724;
+  --foreground: #e0def3;
+  --accent: #eb6f92;
   --radius: 0;
   --font-size: 1rem;
   --line-height: 1.54em;
@@ -44,25 +44,19 @@ body {
 }
 
 h1 {
-  font-size: calc(var(--font-size) * 1.45);
-  letter-spacing: 0;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: calc(var(--font-size) * 0.2);
 }
 
-h2 {
-  font-size: calc(var(--font-size) * 1.35);
-  letter-spacing: 0;
+h1, h2 {
+  text-transform: uppercase;
 }
 
-h3 {
-  font-size: calc(var(--font-size) * 1.15);
-  letter-spacing: 0;
-}
-
-h4,
-h5,
-h6 {
-  font-size: calc(var(--font-size) * 1);
-  letter-spacing: 0;
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  font-size: calc(var(--font-size) * 1.1);
+  letter-spacing: 0.04em;
 }
 
 h1, h2, h3, h4, h5, h6,
