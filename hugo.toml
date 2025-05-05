@@ -5,7 +5,7 @@ pagination.pagerSize = 5
 
 [params]
   contentTypeName = "posts"
-  showMenuItems = 0
+  showMenuItems = 1
   showLanguageSelector = false
   fullWidthTheme = false
   centerTheme = true
@@ -43,8 +43,3 @@ pagination.pagerSize = 5
           identifier = "main"
           name = "main website"
           url = "https://jackpurrin.me/"
-        [[languages.en.menu.main]]
-          identifier = "about"
-          name = "about"
-          url = "/about"
-
