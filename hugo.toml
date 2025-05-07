@@ -8,7 +8,7 @@ pagination.pagerSize = 5
 
 [module]
   [[module.imports]]
-    path = "github.com/jakejarvis/hugo-mod-twemoji"
+    path = "https://github.com/jakejarvis/hugo-mod-twemoji"
 
 [params]
   contentTypeName = "posts"
