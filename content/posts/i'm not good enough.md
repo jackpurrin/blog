@@ -1,7 +1,7 @@
 ---
 title: i'm not good enough
 date: 2025-05-03
-draft: false
+draft: true
 tags:
   - depression
   - love
