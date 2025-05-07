@@ -14,9 +14,8 @@ pagination.pagerSize = 5
   centerTheme = true
   autoCover = true
   enableGitInfo = true
-  showLastUpdated = false
+  showLastUpdated = true
   readingTime = true
-  enableEmoji = true
 
 [languages]
   [languages.en]
