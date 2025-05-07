@@ -3,6 +3,9 @@ languageCode = "en-us"
 theme = "terminal"
 pagination.pagerSize = 5
 
+[outputs]
+  home = ["HTML", "RSS"]
+
 [params]
   contentTypeName = "posts"
   showMenuItems = 1
