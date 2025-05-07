@@ -16,6 +16,7 @@ pagination.pagerSize = 5
   enableGitInfo = true
   showLastUpdated = false
   readingTime = true
+  enableEmoji = true
 
 [languages]
   [languages.en]
